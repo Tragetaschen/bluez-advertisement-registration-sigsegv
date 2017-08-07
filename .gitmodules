@@ -1,0 +1,3 @@
+[submodule "DbusCore"]
+	path = DbusCore
+	url = https://github.com/Tragetaschen/DbusCore
