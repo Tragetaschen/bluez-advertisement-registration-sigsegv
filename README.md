@@ -11,8 +11,7 @@ The DbusCore implementation uses a thread pool to dispatch incoming method calls
 
 ### Prerequisites
 
-You need the .NET Core 1.1 SDK to build the project: https://www.microsoft.com/net/core#linuxubuntu
-You need Mono to run the project.
+You need the .NET Core 1.1 SDK for the project: https://www.microsoft.com/net/core#linuxubuntu
 
 After cloning this repository, run
 ```
@@ -20,19 +19,11 @@ git submodule update --init
 ```
 to initialize the DbusCore submodule.
 
-### Building
-
-Go to the `Reproduction` folder and run
-```
-dotnet restore
-dotnet publish -o ../artifacts
-```
-
 ### Running
 
-Navigate to the `artifacts` folder and run
+Navigate to the `Reproduction` folder and run
 ```
-mono Reproduction.exe
+dotnet run
 ```
 
 ### Configuration
